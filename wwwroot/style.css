@@ -1,0 +1,54 @@
+*{
+    background-color: rgb(250, 250, 250);
+}
+
+.h1-title {
+    text-align: center;
+}
+
+.hidden {
+    display: none;
+}
+
+.movie-frame {
+    width: 400px;
+    height: 550px;
+    /* border: 1px solid black; */
+    text-align: center;
+    margin: auto;
+    border-radius: 20px;
+    box-shadow: 0 3px 20px rgb(0 0 0 / 0.2);
+}
+
+#description {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.img-frame {
+    width:241px;
+    height:350px;
+    padding-top:25px;
+}
+
+.swipe {
+    /* border: 1px solid black; */
+    width: 400px;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.swipe button {
+    font-size: 20px;
+    width: 50px;
+    border-radius: 10px;
+    border: none;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.swipe button:active {
+    background-color: #ddd;
+}
