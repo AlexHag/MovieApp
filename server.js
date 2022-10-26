@@ -9,6 +9,7 @@ app.get('/', (req, res) => {
 })
 
 app.get('/movies.json', (req, res) => {
+    console.log('Request for data');
     res.sendFile(__dirname + '/movies.json');
 })
 
